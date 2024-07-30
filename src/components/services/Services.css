@@ -1,0 +1,79 @@
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 32px;
+}
+.services__block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.services__subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #646464;
+}
+.services__title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 78px;
+    color: #212121;
+}
+.services__wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.services__card{
+    width: calc(33.33% - 24px);
+    height: 193px;
+    color: #000;
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+    padding: 27px;
+    border-radius: 60px 0;
+    box-shadow: 0px 8px 20px 0px #00000024;
+    transition: .5s;
+}
+.services__img{
+    width: 40px;
+    height: 40px;
+}
+.services__desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    gap: 8px;
+}
+.services__text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #212121;
+}
+.services__comment{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #646464;
+}
+.services__card:hover{
+    background: #caa892;
+}
+.services__card:hover .services__text{
+    color: #fff;
+}
+.services__card:hover .services__comment{
+    color: #fff;
+}
